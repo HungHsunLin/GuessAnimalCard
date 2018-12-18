@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B05F2992183347E00E08D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B05F2982183347E00E08D04 /* Assets.xcassets */; };
+		2B75F68821800153003FD4BD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75F68721800153003FD4BD /* Game.swift */; };
+		2B79EBD221870320003EA6D3 /* incorrectSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B79EBCF2187031F003EA6D3 /* incorrectSound.mp3 */; };
+		2B79EBD321870320003EA6D3 /* correctSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B79EBD021870320003EA6D3 /* correctSound.mp3 */; };
+		2B79EBD921884982003EA6D3 /* startBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B79EBD821884982003EA6D3 /* startBGM.mp3 */; };
+		2B79EBE121897AC8003EA6D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B79EBE321897AC8003EA6D3 /* InfoPlist.strings */; };
+		2B79EBEA21897E14003EA6D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B79EBEC21897E14003EA6D3 /* Localizable.strings */; };
 		2B8955CD2178EF85000BF2A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8955CC2178EF85000BF2A8 /* AppDelegate.swift */; };
 		2B8955CF2178EF85000BF2A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8955CE2178EF85000BF2A8 /* ViewController.swift */; };
 		2B8955D22178EF85000BF2A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8955D02178EF85000BF2A8 /* Main.storyboard */; };
-		2B8955D42178EF8B000BF2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8955D32178EF8B000BF2A8 /* Assets.xcassets */; };
 		2B8955D72178EF8B000BF2A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8955D52178EF8B000BF2A8 /* LaunchScreen.storyboard */; };
+		2B8955E5217A374F000BF2A8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8955E4217A374F000BF2A8 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B05F2982183347E00E08D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B75F68721800153003FD4BD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2B79EBCF2187031F003EA6D3 /* incorrectSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrectSound.mp3; sourceTree = "<group>"; };
+		2B79EBD021870320003EA6D3 /* correctSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctSound.mp3; sourceTree = "<group>"; };
+		2B79EBD821884982003EA6D3 /* startBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = startBGM.mp3; sourceTree = "<group>"; };
+		2B79EBDD218979FB003EA6D3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		2B79EBE221897AC8003EA6D3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2B79EBE421897AFB003EA6D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B79EBE621897C86003EA6D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2B79EBEB21897E14003EA6D3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2B79EBED21897E25003EA6D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2B8955C92178EF85000BF2A8 /* MemeryCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeryCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8955CC2178EF85000BF2A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B8955CE2178EF85000BF2A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B8955D12178EF85000BF2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2B8955D32178EF8B000BF2A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B8955D62178EF8B000BF2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B8955D82178EF8B000BF2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8955E4217A374F000BF2A8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5F2F9191EF5A9D0E791C2A88 /* Pods-MemoryCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryCard/Pods-MemoryCard.debug.xcconfig"; sourceTree = "<group>"; };
+		60550EC36C37C9899DA85ADD /* Pods-MemoryCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryCard/Pods-MemoryCard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +55,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B79EBD5218703E7003EA6D3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2B79EBCF2187031F003EA6D3 /* incorrectSound.mp3 */,
+				2B79EBD021870320003EA6D3 /* correctSound.mp3 */,
+				2B79EBD821884982003EA6D3 /* startBGM.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		2B79EBD621884074003EA6D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B8955CE2178EF85000BF2A8 /* ViewController.swift */,
+				2B8955E4217A374F000BF2A8 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B79EBD721884082003EA6D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B75F68721800153003FD4BD /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2B8955C02178EF85000BF2A8 = {
 			isa = PBXGroup;
 			children = (
-				2B8955CB2178EF85000BF2A8 /* MemeryCard */,
+				2B8955CB2178EF85000BF2A8 /* GuessAnimalCard */,
 				2B8955CA2178EF85000BF2A8 /* Products */,
+				4F979D3AC1CF6A710ADCA26D /* Pods */,
+				7AA9504A3B12D385A9BE9F0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +100,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B8955CB2178EF85000BF2A8 /* MemeryCard */ = {
+		2B8955CB2178EF85000BF2A8 /* GuessAnimalCard */ = {
 			isa = PBXGroup;
 			children = (
 				2B8955CC2178EF85000BF2A8 /* AppDelegate.swift */,
-				2B8955CE2178EF85000BF2A8 /* ViewController.swift */,
+				2B79EBD621884074003EA6D3 /* Controller */,
+				2B79EBD721884082003EA6D3 /* Model */,
+				2B05F2982183347E00E08D04 /* Assets.xcassets */,
 				2B8955D02178EF85000BF2A8 /* Main.storyboard */,
-				2B8955D32178EF8B000BF2A8 /* Assets.xcassets */,
+				2B79EBD5218703E7003EA6D3 /* Sounds */,
 				2B8955D52178EF8B000BF2A8 /* LaunchScreen.storyboard */,
 				2B8955D82178EF8B000BF2A8 /* Info.plist */,
+				2B79EBE321897AC8003EA6D3 /* InfoPlist.strings */,
+				2B79EBEC21897E14003EA6D3 /* Localizable.strings */,
 			);
-			path = MemeryCard;
+			path = GuessAnimalCard;
+			sourceTree = "<group>";
+		};
+		4F979D3AC1CF6A710ADCA26D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F9191EF5A9D0E791C2A88 /* Pods-MemoryCard.debug.xcconfig */,
+				60550EC36C37C9899DA85ADD /* Pods-MemoryCard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AA9504A3B12D385A9BE9F0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B8955DB2178EF8B000BF2A8 /* Build configuration list for PBXNativeTarget "MemeryCard" */;
 			buildPhases = (
+				52AE9BBC5ADA2D0E9DA10E9A /* [CP] Check Pods Manifest.lock */,
 				2B8955C52178EF85000BF2A8 /* Sources */,
 				2B8955C62178EF85000BF2A8 /* Frameworks */,
 				2B8955C72178EF85000BF2A8 /* Resources */,
@@ -123,12 +193,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8955D72178EF8B000BF2A8 /* LaunchScreen.storyboard in Resources */,
-				2B8955D42178EF8B000BF2A8 /* Assets.xcassets in Resources */,
+				2B79EBE121897AC8003EA6D3 /* InfoPlist.strings in Resources */,
+				2B05F2992183347E00E08D04 /* Assets.xcassets in Resources */,
 				2B8955D22178EF85000BF2A8 /* Main.storyboard in Resources */,
+				2B79EBD921884982003EA6D3 /* startBGM.mp3 in Resources */,
+				2B79EBEA21897E14003EA6D3 /* Localizable.strings in Resources */,
+				2B79EBD321870320003EA6D3 /* correctSound.mp3 in Resources */,
+				2B79EBD221870320003EA6D3 /* incorrectSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52AE9BBC5ADA2D0E9DA10E9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoryCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B8955C52178EF85000BF2A8 /* Sources */ = {
@@ -136,17 +232,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8955CF2178EF85000BF2A8 /* ViewController.swift in Sources */,
+				2B8955E5217A374F000BF2A8 /* GameViewController.swift in Sources */,
 				2B8955CD2178EF85000BF2A8 /* AppDelegate.swift in Sources */,
+				2B75F68821800153003FD4BD /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2B79EBE321897AC8003EA6D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B79EBE221897AC8003EA6D3 /* zh-Hant */,
+				2B79EBE421897AFB003EA6D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B79EBEC21897E14003EA6D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B79EBEB21897E14003EA6D3 /* zh-Hant */,
+				2B79EBED21897E25003EA6D3 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2B8955D02178EF85000BF2A8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2B8955D12178EF85000BF2A8 /* Base */,
+				2B79EBDD218979FB003EA6D3 /* zh-Hant */,
+				2B79EBE621897C86003EA6D3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,10 +400,13 @@
 		};
 		2B8955DC2178EF8B000BF2A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2F9191EF5A9D0E791C2A88 /* Pods-MemoryCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemeryCard/Info.plist;
+				DEVELOPMENT_TEAM = 378NT6B6N9;
+				INFOPLIST_FILE = "$(SRCROOT)/GuessAnimalCard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,16 +414,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hhl.com.MemeryCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2B8955DD2178EF8B000BF2A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60550EC36C37C9899DA85ADD /* Pods-MemoryCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemeryCard/Info.plist;
+				DEVELOPMENT_TEAM = 378NT6B6N9;
+				INFOPLIST_FILE = "$(SRCROOT)/GuessAnimalCard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hhl.com.MemeryCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

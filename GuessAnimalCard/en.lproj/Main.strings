@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "22R-du-aVQ"; */
+"22R-du-aVQ.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AAx-xP-nEC"; */
+"AAx-xP-nEC.text" = "Label";
+
+/* Class = "UILabel"; text = "電腦分數"; ObjectID = "E25-fw-ace"; */
+"E25-fw-ace.text" = "Computer";
+
+/* Class = "UILabel"; text = "玩家分數"; ObjectID = "En9-cr-CYx"; */
+"En9-cr-CYx.text" = "Player";
+
+/* Class = "UIButton"; normalTitle = "New Game"; ObjectID = "X3y-mz-hip"; */
+"X3y-mz-hip.normalTitle" = "New Game";
+
+/* Class = "UIButton"; normalTitle = "New Game"; ObjectID = "nUF-bD-7wx"; */
+"nUF-bD-7wx.normalTitle" = "New Game";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "r5E-hb-T5o"; */
+"r5E-hb-T5o.text" = "0";
